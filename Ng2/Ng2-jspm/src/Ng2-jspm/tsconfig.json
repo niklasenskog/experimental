@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "noEmitOnError": true,
+        "removeComments": false,
+        "noExternalResolve": false,
+        "declarationFiles": true,
+        "target": "es5",
+        "module": "system",
+        "sourceMap": true
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "jspm": {
+    "directories": {
+        "packages": "wwwroot/jspm_packages",
+        "baseURL": "wwwroot"
+    },
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-beta.9"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  }
+}

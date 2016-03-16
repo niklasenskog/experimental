@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "jspm": "^0.16.31"
+  },
+  "license": "UNLICENSED",
+  "name": "ng2-jspm",
+  "private": true,
+  "version": "1.0.0"
+}
