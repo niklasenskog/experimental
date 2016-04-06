@@ -1,0 +1,18 @@
+<div class="container">
+    <h1>Dungeon Form</h1>
+    <form [ngFormModel]="dungeonForm" (submit)="onSubmit()">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" ngControl="name" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="description">Description</label>
+        <input type="text" ngControl="description" class="form-control" >
+      </div>
+      <div class="form-group">
+        <label for="imageUrl">Image URL</label>
+        <input type="text" ngControl="imageUrl" class="form-control" >
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+</div>
