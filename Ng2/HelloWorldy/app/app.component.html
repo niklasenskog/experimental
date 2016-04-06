@@ -1,0 +1,7 @@
+<p>My name: {{ name }}</p>
+  <p>Friends:</p>
+  <ul>
+     <li *ngFor="#name of avengers #ix=index">
+        {{ name }} nr {{(ix+1) *5}}
+     </li>
+  </ul>
